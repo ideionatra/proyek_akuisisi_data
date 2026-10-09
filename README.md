@@ -18,7 +18,7 @@ Tujuan : ....................
 1. pip install -r requirements.txt
 2. Jalankan notebook di folder notebooks secara berurutan
 
-```python
+```
 (ROOT / "README.md").write_text(readme, encoding="utf-8")
 print((ROOT / "README.md").read_text(encoding="utf-8")[:300])
 ```

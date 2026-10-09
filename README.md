@@ -1,7 +1,7 @@
 # Proyek Akuisisi dan Manajemen Data
-Mata kuliah : BIFP-243 Akuisisi dan Manajemen Data 
-Nama / NIM : I Made Dio Kartiana Putra / 2501010142 
-Tujuan : .................... 
+Mata kuliah : BIFP-243 Akuisisi dan Manajemen Data  
+Nama / NIM : I Made Dio Kartiana Putra / 2501010142  
+Tujuan : ....................  
 
 
 ## Struktur Folder

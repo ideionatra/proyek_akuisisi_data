@@ -1,0 +1,7 @@
+Tahap,Aktivitas Utama,Contoh Tools,Risiko Jika Diabaikan
+Acquisition,Mengambil data kunjungan dari portal open data,"pandas, requests","Sumber tidak jelas, lisensi dilanggar"
+Storage,Menyimpan data mentah maupun data yang sudah diproses secara terstruktur dan aman,"MySQL, PostgreSQL, MongoDB, Amazon S3","Data rentan hilang, kebocoran data privasi, atau sulit diakses kembali saat dibutuhkan"
+Cleaning,"Menghapus data duplikat, menangani data yang kosong (missing values), dan memperbaiki format yang salah","pandas, OpenRefine, PySpark","Hasil analisis menjadi tidak valid dan model gagal memprediksi dengan baik (garbage in, garbage out)"
+Transformation,"Melakukan normalisasi data, scaling, encoding variabel, dan feature engineering agar siap untuk pemodelan","scikit-learn, pandas, dbt",Model tidak dapat memproses data kategorikal atau bias terhadap fitur dengan skala angka yang lebih besar
+Analysis,"Melakukan Exploratory Data Analysis (EDA) untuk menemukan pola, serta melatih model machine learning.","TensorFlow, PyTorch, Jupyter Notebook","Kehilangan insight penting, serta menghasilkan model yang tidak menjawab permasalahan bisnis"
+Delivery,Menyajikan hasil analisis melalui visualisasi/dashboard atau men-deploy model menjadi API agar bisa digunakan,"Tableau, PowerBI, Streamlit, FastAPI","Stakeholder gagal memahami hasil analisis, atau model tidak bisa digunakan oleh pengguna akhir (end-user)"

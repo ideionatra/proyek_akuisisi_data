@@ -25,5 +25,5 @@ print((ROOT / "README.md").read_text(encoding="utf-8")[:300])
 
 ## Tugas Modul 2
 1. Kode dan hasil dataframe dapat dilihat pada file lifecycle.ipynb dan hasil .csv dapat dilihat pada docs/lifecycles.csv
-2. Struktur Folder dan README.md sudah di persiapkan dengan baik, sekaligus memperlihatkan semua folder yang tidak terlihat sebelumnya kerana tidak memiliki file sebelumnya. (Cek commit a5a0a3c "add: added dummy.md so the folder structure all appear on github")
+2. Struktur Folder dan README.md sudah di persiapkan dengan baik, sekaligus memperlihatkan semua folder yang tidak terlihat sebelumnya kerana tidak memiliki file sebelumnya. (Cek commit 2abb1ce "docs: changing dummy.md into .gitkeep for better use of git features")
 3. Jawaban tertulis pada file latihan_modul_2.

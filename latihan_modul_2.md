@@ -1,0 +1,8 @@
+# Soal
+## Tulis paragraf 150-200 kata yang menjelaskan mengapa reproducibility penting dalam akuisisi data, sertakan satu contoh kasus nyata.
+
+
+## Jawaban
+Menurut saya, reproducibility atau kemampuan untuk mereplikasi data secara identik saat tahap akuisisi itu sangat krusial karena menjadi fondasi integritas dan transparansi dalam seluruh proyek data science. Kalau kita tidak bisa menarik ulang dataset mentah yang persis sama dengan yang kita pakai di awal, kita akan kesulitan sendiri nantinya. Kita tidak akan bisa memverifikasi ulang hasil eksperimen, mengaudit apakah model analitik kita sudah adil, atau melacak akar penyebab masalah saat performa algoritma tiba-tiba anjlok di tahap produksi.
+
+Contoh kasus nyatanya bisa kita lihat pada proyek sebuah rumah sakit besar yang mengembangkan model machine learning untuk memprediksi risiko pasien rawat inap ulang. Pada saat akuisisi awal, tim pengembangnya hanya menarik data rekam medis menggunakan kueri database yang dinamis tanpa menyimpan snapshot atau salinan beku dari data tersebut. Beberapa bulan setelah sistem berjalan, modelnya mulai menunjukkan bias prediksi yang membahayakan kelompok pasien tertentu. Ketika auditor dan tim klinis mencoba menyelidiki apakah bias ini murni karena kecacatan pada kode algoritma atau karena ketidakseimbangan pada data pelatihan awal, mereka gagal total. Mereka tidak bisa mereplikasi dataset aslinya karena database rumah sakit terus diperbarui setiap hari. Akibat kita mengabaikan standar reproducibility ini, proses investigasi menjadi jalan buntu, manajemen kehilangan kepercayaan, dan keseluruhan proyek AI tersebut terpaksa harus kita rombak ulang dari titik nol.
